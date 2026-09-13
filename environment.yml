@@ -1,0 +1,18 @@
+name: causal-ml-advertising
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - pandas==2.3.2
+      - scipy==1.15.3
+      - scikit-learn==1.7.1
+      - lightgbm==4.6.0
+      - econml==0.17.0
+      - matplotlib==3.10.5
+      - seaborn==0.13.2
+      - jupyterlab==4.5.3
+      - notebook==7.5.3
+      - ipykernel==6.29.5

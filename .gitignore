@@ -1,0 +1,30 @@
+# Source data is downloaded locally and is never committed.
+data/*
+!data/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter and generated caches
+.ipynb_checkpoints/
+.jupyter/
+.cache/
+
+# Generated exports
+*.html
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
